@@ -5,10 +5,9 @@ import Nav from "react-bootstrap/Nav";
 import { Navbar } from "react-bootstrap";
 import Home from "./pages/Home/Home";
 import Courses from "./pages/Courses/Courses";
-import bout from "./pages/About/About";
+import About from "./pages/About/About";
 import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contact/Contact";
-import About from "./pages/About/About";
 
 function App() {
   return (
