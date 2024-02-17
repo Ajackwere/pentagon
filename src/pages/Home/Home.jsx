@@ -3,6 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import ChooseSection from "../../components/ChooseSection/ChooseSection";
 import StartCourseImg from "../../Utils/Images/startcourse.jpg";
+import Faq from "../../components/ChooseSection/Faq/Faq";
 
 export default function Home() {
   return (
@@ -59,6 +60,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="py-5">
+        <Faq/>
       </div>
     </div>
   );
