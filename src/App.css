@@ -24,6 +24,12 @@ header h1{
 nav .navbar-toggle:focus {
   box-shadow: none;
 }
+.scale-hover-effect{
+  transition: transform .5s ease-in-out;
+}
+.scale-hover-effect:hover{
+  transform: scale(1.05);
+}
 
 .footer-social-icons li:hover svg {
   fill: #212529;
