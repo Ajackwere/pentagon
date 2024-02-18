@@ -9,7 +9,7 @@ p,
 a {
   font-family: "Montserrat", sans-serif;
 }
-header h1{
+header h1 {
   font-size: 4rem;
 }
 .navbar .nav-link {
@@ -24,13 +24,13 @@ header h1{
 nav .navbar-toggle:focus {
   box-shadow: none;
 }
-.scale-hover-effect{
-  transition: transform .5s ease-in-out;
+.scale-hover-effect {
+  transition: transform 0.5s ease-in-out;
 }
-.scale-hover-effect:hover{
+.scale-hover-effect:hover {
   transform: scale(1.05);
 }
-.height-75{
+.height-75 {
   height: 75vh;
 }
 
@@ -41,7 +41,7 @@ nav .navbar-toggle:focus {
   color: #212529;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) {
   #basic-navbar-nav {
     background-color: #ffffff;
     padding: 10px 20px;
@@ -57,7 +57,7 @@ nav .navbar-toggle:focus {
     font-size: 3rem;
   }
 }
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
   header h1 {
     font-size: 2rem;
   }
