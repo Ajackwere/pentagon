@@ -149,49 +149,57 @@ function App() {
                     <Link to="/" className="text-decoration-none text-danger">
                       <li className="text-uppercase fw-semibold"> Home</li>
                     </Link>
-                    <Link to="/courses" className="text-decoration-none text-danger">
+                    <Link
+                      to="/courses"
+                      className="text-decoration-none text-danger"
+                    >
                       <li className="text-uppercase fw-semibold"> Course</li>
                     </Link>
-                    <Link to="/about" className="text-decoration-none text-danger">
+                    <Link
+                      to="/about"
+                      className="text-decoration-none text-danger"
+                    >
                       <li className="text-uppercase fw-semibold"> ABout Us</li>
                     </Link>
-                    <Link to="/blog" className="text-decoration-none text-danger">
+                    <Link
+                      to="/blog"
+                      className="text-decoration-none text-danger"
+                    >
                       <li className="text-uppercase fw-semibold"> Blog</li>
                     </Link>
-                    <Link to="/contact" className="text-decoration-none text-danger">
-                      <li className="text-uppercase fw-semibold"> Get in touch</li>
+                    <Link
+                      to="/contact"
+                      className="text-decoration-none text-danger"
+                    >
+                      <li className="text-uppercase fw-semibold">
+                        {" "}
+                        Get in touch
+                      </li>
                     </Link>
                   </ul>
                 </div>
                 <div className="col-12 col-md-6 col-lg-7">
                   <ul className="'list-unstyled mb-0">
                     <li>
-                      <p>
-                        Main Address - Migori, Kenya.
-                      </p>
+                      <p>Main Address - Migori, Kenya.</p>
                     </li>
                     <li>
-                      <p>
-                        Phone Number - 0700941989
-                      </p>
+                      <p>Phone Number - 0700941989</p>
                     </li>
                     <li>
-                      <p>
-                        Email - msomicollege@gmail.co.ke
-                      </p>
+                      <p>Email - msomicollege@gmail.co.ke</p>
                     </li>
-
                   </ul>
-
                 </div>
               </div>
             </div>
           </div>
           <div className="bg-body-tertiary">
             <div className="container">
-              <p className="p-3 m-0 text-center">copyright @ made by Austine Jack Were </p>
+              <p className="p-3 m-0 text-center">
+                copyright @ made by Austine Jack Were{" "}
+              </p>
             </div>
-
           </div>
         </div>
       </footer>

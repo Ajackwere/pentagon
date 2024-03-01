@@ -13,8 +13,8 @@ header h1 {
   font-size: 4rem;
 }
 .navbar .nav-link {
-  font-size: 14px;
   color: #ffffff;
+  font-size: 14px;
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -48,7 +48,7 @@ nav .navbar-toggle:focus {
     border-radius: 0.375rem;
   }
   .navbar .nav-link {
-    color: #212529;
+    color: #ffffff;
   }
 }
 
